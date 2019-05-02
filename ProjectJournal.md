@@ -1,23 +1,22 @@
 # 202-Starbucks-Team-Project-Journal
 
-Weekly Scrum Report :
+Weekly Scrum Report : April 29 - May 6
 
-Scrum Member : Swati Shukla
-
-Scrum Member : Odkhuu Batmunk
-
-Scrum Member : Vanushri Rawat
-
-
-What tasks did I work on / complete?
-What am I planning to work on next?
-What tasks are blocked waiting on another team member?
+| Scrum Member   | Week Number  | Task Worked on                      | Status     |  Blockers |  Plan for next week    |
+| -------------  | -------------| ----------------------------------- | -------    | ----------| ---------------------  |
+| Swati Shukla   | Week 1       |                                     |            |           |                        |
+| Odkhuu Batmunkh| Week 1       |                                     |            |           |                        |
+| Vanushri Rawat | Week 1       | Creating Jar + Add Card API         | In Process | None      |                        |
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+Weekly Scrum Report :  May 7 - May 11
+
+| Scrum Member   | Week Number  | Task Worked on                      | Status     |  Blockers |  Plan for next week    |
+| -------------  | -------------| ----------------------------------- | -------    | ----------| ---------------------  |
+| Swati Shukla   | Week 2       |                                     |            |           |                        |
+| Odkhuu Batmunkh| Week 2       |                                     |            |           |                        |
+| Vanushri Rawat | Week 2       |                                     |            |           |                        |
 
 
 
