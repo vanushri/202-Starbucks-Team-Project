@@ -5,7 +5,7 @@ Weekly Scrum Report : April 29 - May 6
 | Scrum Member   | Week Number  | Task Worked on                      | Status     |  Blockers |  Plan for next week    |
 | -------------  | -------------| ----------------------------------- | -------    | ----------| ---------------------  |
 | Swati Shukla   | Week 1       |                                     |            |           |                        |
-| Odkhuu Batmunkh| Week 1       |                                     |            |           |                        |
+| Odkhuu Batmunkh| Week 1       | Researching java APIs (Store.java   | In Process | None      | Implementatio          |
 | Vanushri Rawat | Week 1       | Creating Jar + Add Card API         | In Process | None      |                        |
 
 
