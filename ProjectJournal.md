@@ -19,7 +19,15 @@ Daily Scrum meeting at 9.30 pm
 |                   |              | Division of API : Odkhuu - Strore        |
 |                   |              |                   Swati - Payment        | 
 |                   |              |                   Vanushri - Add Card    |
-
+|   Swati Shukla    | May 5        | Discussion on full functionalities of    |
+|                   |              | API due on May 7 and Deployment of app   |
+|                   |              | Discussion How to use Postman and Backend|
+|                   |              | Division of Work : Vanushri - Research on|
+|                   |              |                 designing dbschema of app|              
+|                   |              |                    Swati - how to use    |
+|                   |              |                    postman with backend  |
+|                   |              |                    Odkhuu - Research on  |
+|                   |              |                    AWS Deployment of app |
 
 Weekly Scrum Report :  May 7 - May 11
 
