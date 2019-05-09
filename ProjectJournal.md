@@ -47,6 +47,9 @@ Weekly Scrum Report :  May 7 - May 11
 
 
 # Google Sprint Task Sheet
+https://docs.google.com/spreadsheets/d/1dSsBFTrFEWOiudpMQQa1m4A0lCWxsN3CswtZXcQt_fM/edit?usp=sharing
+
+old sprint task sheet had some problem , the chart was not showing up:
 https://docs.google.com/spreadsheets/d/1b9N2zr3z4dzWcaaNl65S22UMFYb-Lc1H9MkQYRgf8z8/edit#gid=0
 
 # Scrum Task Board 
