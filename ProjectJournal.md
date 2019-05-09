@@ -28,6 +28,10 @@ Daily Scrum meeting at 9.30 pm
 |                   |              |                    postman with backend  |
 |                   |              |                    Odkhuu - Research on  |
 |                   |              |                    AWS Deployment of app |
+|   Odkhuu Batmunkh | May 8        | API discussion and tesing                | 
+|                   |              | Distribution of AWS and Container tasks  |
+|                   |              |  Vanushri & Swati - AWS  EC2             |  
+|                   |              |  Odkhuu - AWS COntainer                  |  
 
 Weekly Scrum Report :  May 7 - May 11
 
