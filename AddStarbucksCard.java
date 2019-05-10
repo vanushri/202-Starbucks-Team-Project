@@ -1,6 +1,4 @@
-package Starbucks;
-
-import starbucks.StarbucksCard;
+package starbucks;
 
 public class AddStarbucksCard {
 	

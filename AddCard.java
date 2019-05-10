@@ -1,4 +1,4 @@
-package Starbucks;
+package starbucks;
 
 public class AddCard {
 	
@@ -8,19 +8,19 @@ public class AddCard {
 		String response = "Card could not be added.";
 		
 		if(cardNum.length()!=9) {
-			response = response+ " Card number is invalid";
+			response = response+" "+ cardNum + " Card number is invalid";
 			return response;
 		}
 		if(cardCode.length()!=3) {
-			response = response+ " Card code is invalid";
+			response = response+" "+  cardCode+ " Card code is invalid";
 			return response;
 		}
 		
 		boolean rep = StarbucksCard.createNewCard(cardNum, cardCode, initialBalance);
 		if(rep) {
-			return "Card Added";
+			return "Card: "+cardNum+" with code :"+cardCode+" with amount "+initialBalance +" has been successfully added";
 		}
 		
-		return "Card could not be added. PLease try after some time";
+		return "Card could not be added. Please try after some time";
 	}
 }
