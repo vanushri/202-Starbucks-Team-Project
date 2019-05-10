@@ -1,8 +1,6 @@
-package Starbucks;
+package starbucks;
 import java.util.Arrays;
 import java.util.List;
-
-import starbucks.StarbucksCard;
 
 public class ManageOrder {
 	
@@ -41,12 +39,13 @@ public class ManageOrder {
 	public String placeOrder(List<OrderItem> items) {
 		
 		System.out.println("Preparing order");
-		
+		OrderDetails.getInstance().itemsList = items;
 		double totalBill = calculateCost();
 		System.out.println("Total bill = "+totalBill);
-		OrderDetails.getInstance();
-		OrderDetails.itemsList = items;
-		OrderDetails.bill = totalBill;
+		//OrderDetails.getInstance();
+		
+		OrderDetails.getInstance().bill = totalBill;
+		OrderDetails.getInstance().status = "payment_pending";
 		System.out.println("Checking Card for balance");
 		String resp = payment.makePayment();
 		if(!"success".equalsIgnoreCase(resp)) {
@@ -70,10 +69,12 @@ public class ManageOrder {
 			}else if ("Expresso".equalsIgnoreCase(item.getItemCode())) {
 				totalBill = totalBill + expresso.drinkCost(item.getSize());
 			}
-			if (item.getAddOns().contains("Caramel")){
+//			if (item.getAddOns().contains("Caramel")){
+			if ("Caramel".equalsIgnoreCase(item.getAddOns())){
 				totalBill = totalBill + caramelAddOn.addOnCost();
 			}
-			if (item.getAddOns().contains("Cream")){
+//			if (item.getAddOns().contains("Cream")){
+			if ("Cream".equalsIgnoreCase(item.getAddOns())){
 				totalBill = totalBill + creamAddOn.addOnCost();
 			}
 		}
@@ -84,7 +85,8 @@ public class ManageOrder {
 		if(Arrays.asList(itemArray).contains(item.getItemCode())) {
 			if(Arrays.asList(locArray).contains(item.getPickUpLoc())) {
 				if(Arrays.asList(sizeArray).contains(item.getSize())) {
-						if(Arrays.asList(addOnArray).containsAll(item.getAddOns())) {
+//						if(Arrays.asList(addOnArray).containsAll(item.getAddOns())) {
+					if(Arrays.asList(addOnArray).contains(item.getAddOns())) {
 						return "success";
 					}else {
 						return "Add on not available";
