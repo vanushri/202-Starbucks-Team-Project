@@ -1,4 +1,4 @@
-package Starbucks;
+package starbucks;
 
 public class StarbucksCard {
 	
