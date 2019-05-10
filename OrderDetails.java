@@ -1,4 +1,4 @@
-package Starbucks;
+package starbucks;
 
 import java.util.ArrayList;
 import java.util.List;
