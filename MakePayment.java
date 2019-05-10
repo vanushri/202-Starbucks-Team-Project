@@ -1,6 +1,6 @@
-package Starbucks;
+package starbucks;
 
-import starbucks.StarbucksCard;
+//import starbucks.StarbucksCard;
 
 public class MakePayment {
 	
@@ -11,13 +11,13 @@ public class MakePayment {
 				return "No Starbucks Card Added. Please add a card and proceed with paymnet";
 			}
 			double cardBalance = StarbucksCard.getCurrentCard().getBalance();
-			if(cardBalance < OrderDetails.bill) {
+			if(cardBalance < OrderDetails.getInstance().bill) {
 				return "Not enough balance in Starbucks Card";
 			}
 			else {
 				StarbucksCard.getCurrentCard().substractBalance(OrderDetails.bill);
 				OrderDetails.status="payment_complete";
-				return "Payment successful for order";
+				return "Payment successful for your order. New balance: "+StarbucksCard.getCurrentCard().getBalance();
 			}
 		}else {
 			return "No pending paymnets";
