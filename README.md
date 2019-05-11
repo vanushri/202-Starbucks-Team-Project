@@ -14,10 +14,11 @@ Odkhuu Batmunkh
 
 # Design Approach
 1) Domain Component :
-  a) We reused the base code from our individual Strbucks Project and added a persistance layer for all the objects such as :   Card, Order Cart and Stores.
-  b) We wrote additional business layer on top of the base code that interacts with the ersistance layer.
-  c) Packed all of the code into a jar and imported into our Spring project.
-  d) The project has capability to be connected to the DB if at any poinyt we decide to intoducce MYSQL.
+ 
+ a) We reused the base code from our individual Strbucks Project and added a persistance layer for all the objects such as :   Card, Order Cart and Stores.
+ b) We wrote additional business layer on top of the base code that interacts with the ersistance layer.
+ c) Packed all of the code into a jar and imported into our Spring project.
+ d) The project has capability to be connected to the DB if at any poinyt we decide to intoducce MYSQL.
  
  2) Created Spring Controller layer having POST and GET methods that interacts with the business layer and can be called directly from Postman.
  
