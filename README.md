@@ -4,7 +4,7 @@ Swati Shukla
 Vanushri Rawat
 Odkhuu Batmunkh
 
-Team work distribution
+# Team work distribution
 1) POST Add Card API - Vanushri
 2) POST Manage order API - Odkhuu
 3) POST Make a Payment API - Swati
@@ -12,7 +12,7 @@ Team work distribution
 6) Deploy to AutoScaled EC2 cluster with load balancer - Everyone
 7) Deploy as a Docker Container in AWS-Elastic Container Services - Everyone
 
-Task one: implement APIs
+# Task one: implement APIs
 
 We have used the base code in our individual starbucks app. 
 The base code we have migrated it from a Gradle project into a Maven project.
@@ -27,7 +27,12 @@ Using Spring Boot we have deployed our maven project as a micro-web-service on p
 Please find our Maven project with Spring Boot implementation here:
 https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/workspace-spring-tool-suite-4-4.2.1.RELEASE.zip
 
-Task two: Deploy to AWS (ec2 cluster + docker containers)
+Screenshots of sample APIs to AWS instances:
+
+
+
+
+# Task two: Deploy to AWS (ec2 cluster + docker containers)
 
 1) Deploying in an EC2 cluster with Auto Scaling group and elastic load balancers:
 -We have deployed our micro-webservice in an EC-2 instance (windows server 2019 AMI) with all the JDK and SpringBoot dependencies.
