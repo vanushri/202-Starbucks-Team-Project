@@ -59,4 +59,11 @@ Screenshots of sample APIs to AWS instances:
 
 
 
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/aws1.png)
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/aws2.png)
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/aws3.png)
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/aws4.png)
 
