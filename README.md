@@ -29,6 +29,20 @@ https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/workspace-spr
 
 Screenshots of sample APIs to AWS instances:
 
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/1.jpeg)
+
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/1.jpeg)
+
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/1.jpeg)
+
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/1.jpeg)
+
+
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/1.jpeg)
+
 
 
 
@@ -44,6 +58,7 @@ Screenshots of sample APIs to AWS instances:
 -We have created a new AMI image from the EC-2 instance from step 1 since it already contains our API deployments with the libraries and dependencies
 -We have created a new container that includes the AMI
 -We have deployed the container in the ECS cluster 
+
 
 
 
