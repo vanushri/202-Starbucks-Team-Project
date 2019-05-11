@@ -12,6 +12,31 @@ Odkhuu Batmunkh
 6) Deploy to AutoScaled EC2 cluster with load balancer - Everyone
 7) Deploy as a Docker Container in AWS-Elastic Container Services - Everyone
 
+# Design Approach
+1) Domain Component :
+  a) We reused the base code from our individual Strbucks Project and added a persistance layer for all the objects such as :   Card, Order Cart and Stores.
+  b) We wrote additional business layer on top of the base code that interacts with the ersistance layer.
+  c) Packed all of the code into a jar and imported into our Spring project.
+  d) The project has capability to be connected to the DB if at any poinyt we decide to intoducce MYSQL.
+ 
+ 2) Created Spring Controller layer having POST and GET methods that interacts with the business layer and can be called directly from Postman.
+ 
+ 3) Design Patterns Used:
+   a) Singleton - As there is no DB involved as of now, we have created the Starbucks card and Order cart as Singleton        objects.
+   b) Adapter - For the manage order API, the Drinks and Add ons have been implemented as Interfaces.
+   c) Decorator pattern - In order to calculate the price of the drinks we have implemented the Decorator pattern so that         multiple addons can be added and dynamic price can be calculated.
+
+4) APIs implemented:
+ 1) Manage Order : lets the user place orders
+    Interacts with the payment API internally
+        
+ 2) Add Card : lets the user add cards with initial balance
+    Card number validation
+    Card Code validation
+    
+ 3) Payment : lets the user make payment for orders in the order cart
+ 4) Store : Lets the user find near by stores according to your current location
+
 # Task one: implement APIs
 
 We have used the base code in our individual starbucks app. 
