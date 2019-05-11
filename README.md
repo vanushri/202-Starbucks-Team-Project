@@ -67,3 +67,9 @@ Screenshots of sample APIs to AWS instances:
 
 ![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/aws4.png)
 
+**Deployment diagram**
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/dep_202.jpg)
+
+**Component Diagram**
+![alt text](https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/comp_202.jpg)
+
