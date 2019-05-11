@@ -22,12 +22,23 @@ Inside the pom.xml we have specified all the dependencies.
 Using springboot libraries we have mapped each Java methods into API calls by creating Controller classes. 
 We have mapped all 3 POST methods (add card, manager order, and make payment) and 1 GET method (store) inside each corresponding Controller class. There is no token authentication for REST-APIs; however, all the variables for each REST-API call is passed on through body in JSON format. 
 
+Using Spring Boot we have deployed our maven project as a micro-web-service on port 8080. 
+
 Please find our Maven project with Spring Boot implementation here:
 https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/workspace-spring-tool-suite-4-4.2.1.RELEASE.zip
 
 Task two: Deploy to AWS (ec2 cluster + docker containers)
 
-1) 
+1) Deploying in an EC2 cluster with Auto Scaling group and elastic load balancers:
+-We have deployed our micro-webservice in an EC-2 instance (windows server 2019 AMI) with all the JDK and SpringBoot dependencies.
+-EC-2 instance was attached into a newly created Auto-scaling group. Scaling group is configured to max size of 1. So whenever the instance stops or terminates, a new instance with the same AMI will be launced
+-We also have attached an Elastic network Load balancer into our EC-2 instance
 
-2)
+2) Deploying to AWS as Docker Containers in Amazon Elastic Containers Service.
+-We have created a new ECS (Elastic Container Service) cluster
+-We have created a new AMI image from the EC-2 instance from step 1 since it already contains our API deployments with the libraries and dependencies
+-We have created a new container that includes the AMI
+-We have deployed the container in the ECS cluster 
+
+
 
