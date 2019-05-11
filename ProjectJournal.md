@@ -4,7 +4,7 @@ Weekly Scrum Report : April 29 - May 6
 
 | Scrum Member   | Week Number  | Task Worked on                      | Status     |  Blockers |  Plan for next week    |
 | -------------  | -------------| ----------------------------------- | -------    | ----------| ---------------------  |
-| Swati Shukla   | Week 1       |     Payment API - Payment.java      | In Process |None       | Testing the API        |
+| Swati Shukla   | Week 1       | Payment API - Payment.java          | In Process | None      | Testing the API        |
 | Odkhuu Batmunkh| Week 1       | Researching java APIs (Store.java   | In Process | None      | Implementation         |
 | Vanushri Rawat | Week 1       | Creating Jar + Add Card API         | In Process | None      | Deployment             |
 
@@ -37,10 +37,19 @@ Weekly Scrum Report :  May 7 - May 11
 
 | Scrum Member   | Week Number  | Task Worked on                      | Status     |  Blockers |  Plan for next week    |
 | -------------  | -------------| ----------------------------------- | -------    | ----------| ---------------------  |
-| Swati Shukla   | Week 2       |                                     |            |           |                        |
-| Odkhuu Batmunkh| Week 2       |                                     |            |           |                        |
-| Vanushri Rawat | Week 2       |                                     |            |           |                        |
-
+| Swati Shukla   | Week 2       |Completed and updated the            |            |           |                        |
+|                |              |functionality of Payment API &       |            |           |                        |
+|                |              |performed GIT commits for uploaded   |            |           |                        |
+|                |              |Spring Maven project deployed on AWS |  Completed |    None   |ProjectDemo on May 11   |
+|Odkhuu Batmunkh | Week 2       |Comppleted and updated the           |            |           |                        |
+|                |              |functionality of Store API &         |            |           |                        |
+|                |              |created AWS container, GIT commits   |            |           |                        |
+|                |              |deployed project on AWS              |  Completed |    None   |ProjectDemo on May 11   |
+| Swati Shukla   | Week 2       |Completed and updated the            |            |           |                        |
+|                |              |functionality of AddCard API &       |            |           |                        |
+|                |              |created jar file for all APIs        |            |           |                        |
+|                |              | performed GIT commits for uploaded  |            |           |                        |
+|                |              |and deployed the project Ec2AWS      |  Completed |    None   |ProjectDemo on May 11   |
 
 
 
