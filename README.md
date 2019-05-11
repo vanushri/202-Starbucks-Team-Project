@@ -77,6 +77,5 @@ Screenshots of sample APIs to AWS instances:
 
 https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/ArchDiaAWS.png
 
-
-https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/Arch_Dia_Container.png
+https://github.com/vanushri/202-Starbucks-Team-Project/blob/master/Arche_Dia_Container.jpg
 
